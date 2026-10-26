@@ -1,0 +1,25 @@
+Headset Lock
+Created by zackndr. LinkedIn: https://www.linkedin.com/in/zackndr/
+
+Disconnects your Bluetooth headphones when you lock your Mac, close the lid or put it to sleep, so they move to your phone. Keyboards, mice and trackpads stay connected. Needs macOS 13 or newer.
+
+Easy install (about 1 minute)
+1. Press Command + Space, type Terminal, press Return. A window opens.
+2. In the Terminal window, type bash and then one space.
+3. Drag "Install Headset Lock" from this window into the Terminal window.
+4. Press Return.
+5. When it says Done, look for the headphones icon at the top right of your screen.
+6. Click Allow when macOS asks about Bluetooth.
+
+From now on it starts by itself every time you log in.
+
+Other way: drag Headset Lock to Applications
+1. Drag Headset Lock onto the Applications folder.
+2. Open Headset Lock from Applications. macOS blocks it. Click Done.
+3. Right away, open System Settings > Privacy and Security, scroll down and click Open Anyway next to Headset Lock. The button only shows for about an hour after step 2.
+4. Allow Bluetooth when macOS asks.
+
+Uninstall
+1. Click the headphones icon, then Quit Headset Lock.
+2. Move Headset Lock from Applications to the Trash.
+3. In Finder, press Shift + Command + G, go to ~/Library/LaunchAgents and move so.zackndr.headsetlock.plist to the Trash.

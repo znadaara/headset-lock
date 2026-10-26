@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleIdentifier</key>
+    <string>so.zackndr.headsetlock</string>
+    <key>CFBundleName</key>
+    <string>Headset Lock</string>
+    <key>CFBundleDisplayName</key>
+    <string>Headset Lock</string>
+    <key>CFBundleExecutable</key>
+    <string>HeadsetLock</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleShortVersionString</key>
+    <string>2.1</string>
+    <key>CFBundleVersion</key>
+    <string>3</string>
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+    <key>NSHumanReadableCopyright</key>
+    <string>Created by zackndr</string>
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+    <key>LSUIElement</key>
+    <true/>
+    <key>NSBluetoothAlwaysUsageDescription</key>
+    <string>Headset Lock disconnects your Bluetooth headphones and speakers when you lock, close the lid or put your Mac to sleep.</string>
+</dict>
+</plist>
