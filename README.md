@@ -2,6 +2,8 @@
 
 Created by zackndr. LinkedIn: https://www.linkedin.com/in/zackndr/
 
+![Headset Lock app window](docs/app-window.png)
+
 A small menu bar app for your Mac. When you lock the Mac, close the lid or put it to sleep, it disconnects every Bluetooth audio device (headphones, AirPods, speakers) so they move to your phone. Keyboards, mice and trackpads stay connected. Bluetooth stays on.
 
 Started 2026-10-26. v2 replaces a single-device v1. The full plan is in PLAN.md.
