@@ -1,4 +1,6 @@
-# Mac headset lock (v2)
+# Headset Lock
+
+Moves your Bluetooth headphones to your phone when you lock or close your Mac.
 
 Created by zackndr. LinkedIn: https://www.linkedin.com/in/zackndr/
 

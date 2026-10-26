@@ -19,7 +19,7 @@ final class MainWindowController: NSObject, NSWindowDelegate {
             w.toolbar = NSToolbar(identifier: "main")
             w.toolbarStyle = .unified
             w.isReleasedWhenClosed = false
-            w.minSize = NSSize(width: 900, height: 560)
+            w.minSize = NSSize(width: 940, height: 560)
             w.contentView = NSHostingView(rootView: MainView(model: .shared))
             w.delegate = self
             w.center()
@@ -64,7 +64,7 @@ struct MainView: View {
                 Stage(model: model)
                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                 Inspector(model: model, selected: model.devices.first { $0.id == selection })
-                    .frame(width: 310)
+                    .frame(width: 350)
             }
         }
         .onAppear { if selection == nil { selection = model.devices.first?.id } }
@@ -319,8 +319,10 @@ struct InspectorRow<Accessory: View>: View {
                 Image(systemName: systemImage)
                     .frame(width: 18)
                     .foregroundStyle(.secondary)
+                // Titles win over controls, so they never shrink to "…".
                 Text(title)
                     .lineLimit(1)
+                    .layoutPriority(1)
                 Spacer(minLength: 8)
                 accessory
             }
